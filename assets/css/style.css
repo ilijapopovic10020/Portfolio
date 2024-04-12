@@ -20,13 +20,13 @@ nav .logo {
     font-weight: 600;
 }
 
-nav a {
+nav a, footer a {
     color: white !important;
     font-size: 20px !important;
     font-weight: 300;
 }
 
-nav li a:hover {
+nav li a:hover, footer a:hover {
     color: cadetblue !important;
 }
 
@@ -53,6 +53,10 @@ header section h1 {
     height: 3px;
     background-color: cadetblue;
     width: 10%;
+}
+
+footer {
+    background-color: rgb(65, 65, 65) !important;
 }
 
 @media only screen and (max-width: 600px) {
