@@ -56,8 +56,8 @@ header section {
     border: 0;
 }
 
-.neon-button ul {
-    list-style-type: none !important;
+.neon-button a {
+    text-decoration: none;
 }
 
 .neon-button:hover {
@@ -96,8 +96,8 @@ footer {
 }
 
 @media (max-width: 992px) {
-    .neon-button {
-        width: 220px;
+    header section {
+        margin-top: 100px !important;
     }
 
     .img-project {
@@ -109,10 +109,6 @@ footer {
 @media (max-width: 768px) {
     header section {
         margin-top: 100px !important;
-    }
-
-    .neon-button {
-        width: 220px;
     }
 
     .img-project {
