@@ -131,4 +131,12 @@ footer {
         margin-top: 10px;
         width: 100%;
     }
+
+    .android {
+        width: auto !important;
+    }
+
+    .sm-hidden {
+        display: none;
+    }
 }
